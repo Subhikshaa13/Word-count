@@ -28,6 +28,7 @@ after splitting.
 End the program.
 
 ## PROGRAM:
+```
 fname = input("Enter file name: ")
 num_words = 0
 with open(fname, 'r') as f:
@@ -35,7 +36,7 @@ for line in f:
 words = line.split()
 num_words += len(words)
 print("Number of words: ", num_words)
-
+```
 ### OUTPUT:
 ![image](https://user-images.githubusercontent.com/118787344/214052380-5059c95e-1083-4418-a50a-a540abb8f6eb.png)
 
